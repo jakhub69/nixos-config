@@ -26,6 +26,9 @@
     # rebuild and makes rebuilds take longer.
     dates = [ "daily" ];
   };
+  nix.settings = {
+      experimental-features = [ "nix-command" "flakes" ];
+  };
 
   # Deletes old stuff from the store that's now unreachable.
   # Just `nix-collect-garbage` / `nix-store --gc`) on a timer.
