@@ -28,6 +28,8 @@
   };
   nix.settings = {
       experimental-features = [ "nix-command" "flakes" ];
+      auto-optimise-store = true;
+
   };
 
   # Deletes old stuff from the store that's now unreachable.
