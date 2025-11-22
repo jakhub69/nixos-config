@@ -17,6 +17,7 @@
 
     filezilla
     discord
+    google-chrome
 
     obs-studio
     vlc
