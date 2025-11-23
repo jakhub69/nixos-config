@@ -18,6 +18,7 @@
     filezilla
     discord
     google-chrome
+    teamspeak3
 
     obs-studio
     vlc
