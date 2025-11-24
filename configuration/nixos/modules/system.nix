@@ -40,4 +40,8 @@
     dates = "weekly";
     options = "--delete-older-than 14d"; # Delete old generations
   };
+
+  nixpkgs.config.permittedInsecurePackages = [
+    "qtwebengine-5.15.19"
+  ];
 }

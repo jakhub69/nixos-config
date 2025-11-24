@@ -10,7 +10,7 @@
     (pkgs.steam.override {
       extraPkgs = pkgs: [
         pkgs.noto-fonts-cjk-sans
-        pkgs.noto-fonts-extra
+        pkgs.noto-fonts
         pkgs.dejavu_fonts
       ];
     })
@@ -48,7 +48,8 @@
     pciutils
     unrar
     lm_sensors
-    glxinfo
+    #glxinfo
+    mesa-demos
     git
   ];
 }
