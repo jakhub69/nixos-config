@@ -1,5 +1,5 @@
 {
-  description = "Modular NixOS config - stable only";
+  description = "Modular NixOS config - unstable only";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";

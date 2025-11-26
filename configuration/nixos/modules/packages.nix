@@ -48,7 +48,6 @@
     pciutils
     unrar
     lm_sensors
-    #glxinfo
     mesa-demos
     git
   ];
