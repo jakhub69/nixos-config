@@ -24,6 +24,7 @@
     vlc
     spotify
     youtube-music
+    upscayl
 
     htop
     ncdu
