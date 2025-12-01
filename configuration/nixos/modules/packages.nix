@@ -15,6 +15,8 @@
       ];
     })
 
+    lutris
+
     filezilla
     discord
     google-chrome
