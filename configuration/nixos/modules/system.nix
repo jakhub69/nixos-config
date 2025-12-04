@@ -44,4 +44,7 @@
   nixpkgs.config.permittedInsecurePackages = [
     "qtwebengine-5.15.19"
   ];
+
+   virtualisation.virtualbox.host.enable = true;
+   users.extraGroups.vboxusers.members = [ "user-with-access-to-virtualbox" ];
 }

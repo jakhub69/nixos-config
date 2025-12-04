@@ -12,6 +12,7 @@
       "render"
       "input"
       "storage"
+      "vboxusers"
     ];
   };
 }
